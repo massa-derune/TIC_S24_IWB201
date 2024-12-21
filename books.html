@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.7.1.js"></script>
+    <title> الكتب</title>
+    <script>
+        $(document).ready(function () {
+        $('.j_buttons').click(function () {
+            $('#purchase-form').slideToggle(1000)
+        })
+        })
+    </script>
+    
+    <div > 
+        <a class="H_buttons" href="home.html"> الصفحة الرئيسية </a>  
+        <a class="H_buttons" href="AboutUs.html"> من نحن ؟ </a>  
+    </div>
+    <img class="H-header" src="reading.png" alt="logo" >
+    <br/>  <br/>  <br/>
+</head>
+<body>
+    <table align ="center" border ="1" class ="H-names">
+
+ 
+
+                                                                <!-- ! TABLE HEAD ! -->
+    <thead>
+        <tr style="background-color:  rgb(113, 178, 231);">
+            <td>رمز الكتب ISBN</td>
+            <td>اسم الكتاب</td>
+            <td> السعر</td>
+            <td> اظهار التفاصيل</td>
+            <td>اختيار</td>
+        </tr>
+
+                                                             <!-- ! END OF TABLE HEAD ! -->
+                                               <!--?-------==============-----------------1--------=======================--------------- -->
+    </thead>
+        <tr class="property" >
+           <td >606255</td>
+           <td> ثلاثية غرناطة </td>
+           <td>25000 ل.س</td>
+           <td> <button  class="toggleDetails">تفاصيل</button> </td>
+           <td > <input type="radio" name="radio"> </td>
+        </tr>
+                                                      
+                                                                <!-- *hidden content -->
+        <tr class="propertyDetails hidden">
+            <td colspan="5" >
+                    <table style=" width: 100%;" align="center ">
+                        <tr class="phead">
+                            <p> الناشر:سيف المعرفة</p>
+                          <p>  تصنيف الكتاب :روائي</p>
+                          <p> الكاتب: رضوى عاشور</p>
+                           <p> ملخص: تدور الأحداث في مملكة غرناطة بعد سقوط جميع الممالك الإسلامية في الأندلس، وتبدأ أحداث الثلاثية في عام 1491 
+                            وهو العام الذي سقطت فيه غرناطة بإعلان المعاهدة التي تنازل بمقتضاها أبو عبد الله محمد الصغير آخر ملوك غرناطة عن ملكه<p> لملكي قشتالة وأراجون 
+                            وتنتهى بمخالفة آخر أبطالها الأحياء عليّ لقرار ترحيل المسلمين حينما يكتشف أن الموت في الرحيل عن الأندلس وليس في البقاء.
+                        <p>
+                            <td  colspan="4"> <img  src="ثلاثية غرناطة.png" alt="property" >
+                                  
+                         </p>  
+                        </tr> 
+                    </table>
+            </td>
+        </tr>
+                                                            <!-- *end of hidden content -->
+                                              <!--?-------==============-----------------2--------=======================--------------- -->
+      <tr class="property">
+           <td>616252</td>
+           <td> فاتتني الصلاة</td>
+           <td>30000 ل.س</td>
+           <td> <button class="toggleDetails">تفاصيل</button> </td>
+           <td> <input type="radio" name="radio"></td>    
+       </tr>
+                                                                <!-- *hidden content -->
+        <tr class="propertyDetails hidden">
+            <td colspan="5" >
+                    <table style=" width: 100%;" align="center ">
+                        <tr class="phead">
+                            <p> الناشر:سيف المعرفة</p>
+                          <p>تصنيف الكتاب :كتب دينية</p>
+                          <p> الكاتب: اسلام جمال</p>
+                           <p>كتاب موجه خاصة لمن لا يصلون و يتهاونون على الصلاة في هذا الكتاب سوف تجد أحسن الطرق للمواظبة عليها لأننا نعلم بأن الصلاة هي السبيل للسعادة و الطمأنينة..
+                        <p>
+                            <td  colspan="4"> <img  src="فاتتني صلاة.png" alt="property" >
+                                  
+                         </p>  
+                        </tr> 
+                        
+                             
+                    </table>
+            </td>
+        </tr>
+                                                            <!-- *end of hidden content -->
+                                 <!--?-------==============-----------------3--------=======================--------------- -->
+       <tr>
+           <td>616254</td>
+           <td>عدوي اللدود</td>
+           <td>15000 ل.س</td>
+           <td> <button class="toggleDetails">تفاصيل</button> </td>
+           <td><input type="radio" name="radio"> </td>
+       </tr>
+                                                                <!-- *hidden content -->
+        <tr class="propertyDetails hidden">
+            <td colspan="5" >
+                    <table style=" width: 100%;" align="center ">
+                        <tr class="phead">
+                            <p> الناشر:سيف المعرفة</p>
+                          <p>تصنيف الكتاب :الأدب العالمي</p>
+                          <p> الكاتب : جين ويبستر </p>
+                           <p>عدوّي اللدود هو العمل اللاحق لرائعة جين وبستر "صاحب الظل الطويل"، 
+                            ومثل جزئها الأوّل، تتألف هذه الرواية من سلسلة من الرسائل، لكنها تُكتب هذه المرة بقلم سالي مكبرايد، الصديقة الأقرب لجودي آبوت، التي، كما سيتضّح للقارئ منذ البداية، عهدت إليها بمهمة إدارة ميتم جون غرير، لكي تتولى الإشراف على إصلاحه، والتخلص من السياسات القديمة التي جعلت من الملجأ مكانًا قاتمًا وكئيبًا.
+                            
+                            منذ حالة الهلع الأولى التي تنتابُ سالي مكبرايد لتوليها المهمة وحتى نهاية العمل، يتتبع القارئ، بإلهامٍ وشغف، القوة الأنثوية الناعمة وتأثيرها في إعادة صياغة الذات والعالم
+                            
+                        <p>
+                            <td  colspan="4"> <img  src="عدوي اللدود.png" alt="property" >
+                                  
+                         </p>  
+                        </tr> 
+                        
+                    </table>
+            </td>
+        </tr>
+                                                            <!-- *end of hidden content -->
+                            <!--?-------==============-----------------4--------=======================--------------- -->
+       <tr>
+           <td>606250 </td>
+           <td>غربة الياسمين</td>
+           <td>14000 ل.س</td>
+           <td> <button class="toggleDetails">تفاصيل</button> </td>
+           <td> <input type="radio" name="radio"></td>
+       </tr>
+                                                                <!-- *hidden content -->
+        <tr class="propertyDetails hidden">
+            <td colspan="5" >
+                    <table style=" width: 100%;" align="center ">
+                        <tr class="phead">
+                            <p> الناشر:سيف المعرفة</p>
+                          <p>تصنيف الكتاب :رواية اجتماعية تتناول قضايا الهجرة والغربة</p>
+                          <p> الكاتب: خولة حمدي</p>
+                           <p>تدور أحداث الرواية حول شخصية ياسمين، وهي فتاة تونسية تعيش في فرنسا وتواجه تحديات الغربة والاندماج في مجتمع يختلف عن مجتمعها الأصلي ثقافيًا ودينيًا. تعاني ياسمين من العنصرية وصعوبات الحياة كمغتربة، وتسلط الرواية الضوء على قضايا الهوية والانتماء وتحديات الحفاظ على القيم الثقافية والدينية في بيئة غربية
+                          <p>
+                            <td  colspan="4"> <img  src="غربة الياسمين.png" alt="property" >
+                                  
+                         </p>  
+                        </tr> 
+                        
+                    </table>
+            </td>
+        </tr>
+                                                            <!-- *end of hidden content -->
+                              <!--?-------==============-----------------5--------=======================--------------- -->                                            
+       <tr>
+           <td>606257</td>
+           <td>سنترال بارك</td>
+           <td>19500 ل.س</td>
+           <td> <button class="toggleDetails">تفاصيل</button> </td>
+           <td> <input type="radio" name="radio"></td>
+       </tr>
+                                                               <!-- *hidden content -->
+        <tr class="propertyDetails hidden">
+            <td colspan="5" >
+                    <table style=" width: 100%;" align="center ">
+                        <tr class="phead">
+                            <p> الناشر:سيف المعرفة</p>
+                          <p>تصنيف الكتاب: الأدب العالمي</p>
+                          <p> الكاتب: غيوم ميسو</p>
+                           <p> تدور الرواية حول شرطية وعازف موسيقي يستيقظان ذات صباح ليجدا نفسيهما مقيدين بسلسلة على أحد مقاعد حديقة سنترال بارك في نيويورك .. ولم تكن بينهما معرفة سابقة. كيف وصلا إلى هناك .. وهل يمكن لشخص ما أن يكون في مكانين مختلفين متباعدين في ذات اللحظة .. لكن دائما هناك جانب من الحقيقة لا يظهر إلا في اللحظات الأخيرة .. يقلب كل التوقعات
+                          <p>
+                            <td  colspan="4"> <img  src="سنترال بارك.png" alt="property" >
+                                  
+                         </p>  
+                        </tr> 
+                    </table>
+            </td>
+        </tr>
+                                                            <!-- *end of hidden content -->
+                              <!--?-------==============-----------------6--------=======================--------------- -->                                            
+       <tr>
+           <td>656256</td>
+           <td> دكتور فاوستس</td>
+           <td>25000 ل.س</td>
+           <td> <button class="toggleDetails">تفاصيل</button> </td>
+           <td><input type="radio" name="radio"> </td>
+       </tr> 
+                                                                <!-- *hidden content -->
+ <tr class="propertyDetails hidden">
+    <td colspan="5" >
+            <table style=" width: 100%;" align="center ">
+                <tr class="phead">
+                    <p> الناشر:سيف المعرفة</p>
+                  <p>تصنيف الكتاب: الأدب البريطاني</p>
+                  <p> الكاتب: كريستوفر مارلو</p>
+                <p>
+                    تدور أحداث المسرحية حول شخصية الدكتور فاوستس ومأساة حياته وموته التاريخية ، فقد كان فاوستس رجل بالغ لأقصى درجات المعرفة فى عصره ، لكن طموحه لم يكن له حدود توقفه ، فقد كان يطمح الى ما فوق طاقة البشر ، فتنازل عن نفسه و وهبها للشيطان ف مقابل أن يمنحه الشيطان قدرة خارقة ومن هنا بدأت المأساة.
+                
+                  
+                    <td  colspan="4"> <img  src="دكتور فاوستس.png" alt="property" >
+                          
+                 </p>  
+                </tr> 
+            </table>
+    </td>
+</tr>
+                                                           <!-- *end of hidden content -->
+                              <!--?-------==============-----------------7--------=======================--------------- -->                                            
+        <tr>
+            <td>656259</td>
+            <td> هاملت</td>
+            <td>40000 ل.س</td>
+            <td> <button class="toggleDetails">تفاصيل</button> </td>
+            <td><input type="radio" name="radio"> </td>
+        </tr>
+                                                                <!-- *hidden content -->
+ <tr class="propertyDetails hidden">
+    <td colspan="5" >
+            <table style=" width: 100%;" align="center ">
+                <tr class="phead">
+                    <p> الناشر:سيف المعرفة</p>
+                    <p> التصنيف: مسرحيات مترجمة</p>
+                    <p>  الكاتب: وليم شكسبير</p>
+                   <p>
+                    هاملت مسرحية ألفها الإنجليزي شكسبير عن قِصة الأمير هاملت الدانماركي، تدور أحداث المسرحية حول هاملت الشاب الذي يُعاني من سلوك أمه التي تزوجت من عمه بعد شهر واحد من وفاة والده، وعندما يظهر شبح الأب لهاملت ويخبره أنه قُتل على يد عمه يبدأ هاملت في التحضير للانتقام من قاتل والده، ويحاول ادعاء الجنون ليخفي نواياه التي أفشى بها لصديقه هوارشيو، بينما يقوم كلوديوس عم هاملت بالتجسس عليه عن طريق صديقين للأمير الشاب، ولكنه سُرعان ما يكتشف الأمر ويستمر في ادعائه الجنون أمامهما. على الجانب الآخر يتسبب هاملت في مقتل والد أوفيليا، وهي الفتاة التي تجمعه معها قصة حب دمرتها وساوسه تجاه النساء، ويُرسله عمه إلى إنجلترا مع الترتيب لإعدامه عند وصوله، ولكنه يستطيع النجاة من ذلك التدبير والعودة للدانمارك ليجد لارتيس أخو أوفيليا يسعى للانتقام منه بسبب قتل والده، وتدور مبارزة في نهاية المسرحية يموت على إثرها لارتيس، وهاملت، وعمه
+                   </p>
+                   <td  colspan="4"> <img  src="هاملت.png" alt="property" >
+                
+            </table>
+    </td>
+</tr>
+                                                           <!-- *end of hidden content -->
+                              <!--?-------==============-----------------8--------=======================--------------- -->                                            
+        <tr>
+            <td>676258</td>
+            <td>ملابس الامبراطور الجديدة</td>
+            <td>5000 ل.س</td>
+            <td> <button class="toggleDetails">تفاصيل</button> </td>
+            <td> <input type="radio" name="radio"></td>
+        </tr>
+                                                                <!-- *hidden content -->
+ <tr class="propertyDetails hidden">
+    <td colspan="5" >
+            <table style=" width: 100%;" align="center ">
+                <tr class="phead">
+                    <p> الناشر:سيف المعرفة</p>
+                    <p> التصنيف: قصص شعبية</p>
+                    <p>الكاتب: محمد الشقيري</p>
+                    <p>
+                        "!تدور القصة حول ملك يقنعه خياطان بأن يصنعوا له بدلة خفية لا يراها الذي لا يصلح لمنصبه أو الأحمق وعديم الكفاءة. وعندما يخرج الملك أمام رعيته بملابسه الجديدة، لا يتجرأ أحد على قول أنه لا يرى أي ملابس على الملك، باستثناء طفل يصرخ "لكنه لا يرتدي أي ملابس على الإطلاق
+                    </p>
+                </tr>
+                
+                    <td  colspan="5"> <img  src="ملابس الامبراطور الجديدة.png" alt="property" > 
+                         
+            </table>
+    </td>
+</tr>
+                                                           <!-- *end of hidden content -->
+                              <!--?-------==============-----------------9--------=======================--------------- -->                                            
+        <tr>
+            <td>676259</td>
+            <td>علي بابا والأربعون لصاً</td>
+            <td>3000 ل.س</td>
+            <td> <button class="toggleDetails">تفاصيل</button> </td>
+            <td><input type="radio" name="radio"> </td>
+        </tr>
+                                                                <!-- *hidden content -->
+ <tr class="propertyDetails hidden">
+    <td colspan="5" >
+            <table style=" width: 100%;" align="center ">
+                <tr class="phead">
+                    <p> الناشر:سيف المعرفة</p>
+                    <p> التصنيف: قصص شعبية</p>
+                    <p>الكاتب: محمد الشقيري</p>
+                    <p>
+                        شخصية علي بابا في النسخة الأصلية هو حطاب أمين وصادق يكتشف سر مخبأ اللصوص ويدخل بالعبارة السحرية «افتح يا سمسم». يحاول اللصوص قتل علي بابا، لكن جاريته الوفية تحبط مكائدهم. يتزوجها ابن علي بابا ويحتفظ علي بابا بسر الكنز
+                    </p>
+                </tr>
+                
+                    <td  colspan="5"> <img  src="علي بابا والاربعون لصا.png" alt="property" > 
+                         
+                
+                </tr> 
+            </table>
+    </td>
+</tr>
+                                                           <!-- *end of hidden content -->
+                              <!--?-------==============-----------------10--------=======================--------------- -->                                            
+        <tr>
+            <td>606256</td>
+            <td> نظرية الفستق</td>
+            <td>20000 ل.س</td>
+            <td> <button class="toggleDetails">التفاصيل</button> </td>
+            <td><input type="radio" name="radio"> </td>
+        </tr>
+                                                                     <!-- *hidden content -->
+ <tr class="propertyDetails hidden">
+    <td colspan="5" >
+            <table style=" width: 100%;" align="center ">
+                <tr class="phead">
+                    <tr class="phead">
+                        <p> الناشر:سيف المعرفة</p>
+                        <p> التصنيف:  تطويرالذات</p>
+                        <p>الكاتب: فهد عامر الأحمدي</p>
+                        <p>
+                            كتاب سيغير طريقة تفكيرك وحكمك على الأشياء.يحتوي على مجموعة مقالات تتمحور غالبا عن تطوير الذات والبرمجة اللغوية العصبية وطرق التفكير والوعي والسلوك الإنساني.</p>
+                    </tr>
+                    
+                        <td  colspan="5"> <img  src="نظرية الفستق.png" alt="property" > 
+                             
+                    
+                    </tr> 
+                </tr> 
+            </table>
+    </td>
+</tr>
+                                                           <!-- *end of hidden content -->   
+    </tbody>
+    </table>
+<br>
+ <br>
+  <br>
+<br>                     
+<p></p>
+              <!---- زر متابعة -->
+              <button class="j_buttons" >متابعة</button>
+  <!-- <a class="j_buttons" href="#purchas
+     </tbody>
+    </table>
+<br>
+ <br>
+  <br>
+<br>
+
+
+
+
+
+
+
+<button class="j_buttons" >متابعة</button>
+<!-- <a class="j_buttons" href="#purchase-form" > متابعة </a>  -->
+<br> 
+<br>
+<br>
+<br>
+<div id="purchase-form" style="display: none;">
+<form onsubmit="submitForm()">
+    <label for="fullName">الاسم الكامل:</label>
+    <input type="text" id="fullName" name="fullName" pattern="[أ-ي\s]+" title="الرجاء إدخال أحرف هجائية فقط باللغة العربية" required="" >
+
+    <label for="nationalId">الرقم الوطني:</label>
+    <input type="text" id="nationalId" name="nationalId" required="" pattern="\d{11}" title="الرجاء إدخال رقم وطني صحيح">
+
+    <label for="dob">تاريخ الولادة:</label>
+    <input type="date" id="dob" name="dob" pattern="\d{2}-\d{2}-\d{4}" title="الرجاء إدخال تاريخ صحيح بالشكل dd-mm-yyyy" required="" >
+
+    <label for="mobile">رقم الموبايل:</label>
+    <input type="tel" id="mobile" name="mobile" pattern="(09\d{8}|09\d{8})" title="الرجاء إدخال رقم موبايل صحيح" required="" >
+
+    <label for="email">الإيميل:</label>
+    <input type="email" id="email" name="email"  required="">
+    <!--حقل Captcha'--->
+<label for="captcha">رمز التحقق:</label>
+<input type="text" id="captcha" name="captcha" required="" placeholder="Q0F0pY">
+<button class="btn-send2" onclick="changeCaptcha()">تغيير الرمز</button>
+  <button class="btn-send3" onclick="show_pup()"> إرسال</button>
+</div>
+
+</form>
+</div>
+</div>
+<script src="jquery-3.7.1.js"></script>
+<script src="my Functions.js"></script>
+</body>
+</html>
