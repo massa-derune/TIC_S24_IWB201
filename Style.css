@@ -126,14 +126,14 @@ th, td, tr {
 /* استكمال تنسيق الرمز اسم الكتاب*/
 .phead {
   background-color: #F2F7FA;
-  color: white;
+  color:black;
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 /* تنسيق جدول الكتب */
 table tr table tr td {
-  font-size: 10px;
+  font-size: 20px;
   border-width: 2px;
   border-style: solid;
   border-color: #1A3E59;
